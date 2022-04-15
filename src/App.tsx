@@ -19,7 +19,7 @@ function App() {
         <p>Take a picture with native controls.</p>
         <button onClick={() => takePic()}>Learn React</button>
       </header>
-      {photo ? <img src={photo} alt="photo" /> : null}
+      {photo ? <img src={photo} alt="camera pic taken" /> : null}
     </div>
   );
 }
